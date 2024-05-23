@@ -1,18 +1,19 @@
-## Getting Started
+## Socket Programming in JAVA
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+In application layer, one of the ways to access transport layer is by **socket**, socket comes pretty hand on things like this.
 
-## Folder Structure
+## Project Explaination
 
-The workspace contains two folders by default, where:
+This project simulates simple communication between client and server. Where client send a sentence to the server and the server respond back with capitalized version of the sentence.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## TCP
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+In this simple project, I use **TCP (Transmission Control Protocol)** as the communication protocol between client and server to achieve handshake and maintain reliable connection.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Execution
 
-## Dependency Management
+To run this project, simply execute the **'start.sh'** shell script by run this command in your favorite CLI (make sure you are in the root project directory):
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+`./start.sh`
+
+and things should go well... (I guess)
